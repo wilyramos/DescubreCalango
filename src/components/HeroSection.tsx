@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Projects from './Project';
+import Projects from './Categories';
 import Skills from './Skills';
 
 export default function HeroSection() {

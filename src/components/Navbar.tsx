@@ -1,4 +1,4 @@
-import SocialMedia from "./SocialMedia"; // Asegúrate de tener este componente
+// import SocialMedia from "./SocialMedia"; // Asegúrate de tener este componente
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="bg-blue-600 text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <h1 className="text-xl font-bold">Tourism Recommendation</h1>
+          <h1 className="text-xl font-bold">Tourism Calango</h1>
 
           <div className="hidden md:flex items-center space-x-4">
             <form onSubmit={handleSearch} className="flex space-x-2">
